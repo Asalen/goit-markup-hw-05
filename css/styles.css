@@ -612,9 +612,10 @@ img {
     border-radius: 4px;
 }
 
-.modal-btn {
+
+/* .modal-btn {
     display: inline-block;
-    justify-content: end;
+    justify-content: center;
     width: 30px;
     height: 30px;
     left: 1026px;
@@ -626,4 +627,4 @@ img {
 
 .modal-btn-svg {
     fill: var(--main-background-color);
-}
+} */
