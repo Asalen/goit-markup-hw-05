@@ -605,26 +605,27 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    min-width: 528px;
-    min-height: 581px;
-    background: var(--main-background-color);
+    width: 528px;
+    height: 581px;
+    background-color: var(--main-background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
 
-
-/* .modal-btn {
-    display: inline-block;
-    justify-content: center;
+.modal-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
     width: 30px;
     height: 30px;
-    left: 1026px;
-    top: 229px;
-    background: var(--main-background-color);
+    background-color: var(--main-background-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal-btn-svg {
-    fill: var(--main-background-color);
-} */
+    fill: var(--some-text-color);
+}
