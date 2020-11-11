@@ -146,6 +146,7 @@ img {
 }
 
 .site-nav .link {
+    position: relative;
     color: var(--title-text-color);
 }
 
@@ -155,6 +156,19 @@ img {
 .site-cont .link:focus,
 .site-nav .link.current {
     color: var(--accent-color);
+}
+
+.site-nav .link:hover::after,
+.current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 45px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
 }
 
 .site-cont .link {
