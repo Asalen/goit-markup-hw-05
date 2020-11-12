@@ -292,6 +292,31 @@ img {
     margin-top: 30px;
 }
 
+.work-card {
+    position: relative;
+}
+
+.work-type {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.work-description {
+    display: block;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.172;
+    text-transform: uppercase;
+    color: var(--main-background-color);
+}
+
 
 /* Team */
 
